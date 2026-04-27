@@ -44,16 +44,12 @@ Document your development process with **minimum 3 entries** showing progression
 
 ---
 
-### Entry 2 - [Date, Time]
-**What I implemented**: 
+### Entry 2 - [April 27, 2026]
+Task 1 Implementation: Successfully implemented ReentrantLock to safeguard critical sections involving shared counter variables (contextSwitchCount, completedProcessCount, totalWaitingTime). Utilized try-finally blocks to ensure robust resource release and prevent potential deadlocks.
 
-**Challenges encountered**: 
+Task 2 Implementation: Applied a dedicated ReentrantLock for the executionLog (ArrayList) to maintain thread safety. This prevents ConcurrentModificationException by serializing access to the log during concurrent process execution.
 
-**How I solved it**: 
-
-**Testing approach**: 
-
-**Time spent**: 
+Verification: Conducted multiple test runs to ensure that synchronization mechanisms effectively mitigate race conditions and provide consistent output.
 
 ---
 
