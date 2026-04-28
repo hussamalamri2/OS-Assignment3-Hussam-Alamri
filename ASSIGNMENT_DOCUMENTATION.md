@@ -45,33 +45,16 @@ Verification: Conducted multiple test runs to ensure that synchronization mechan
 
 ---
 
-### Entry 3 - [Date, Time]
-**What I implemented**: 
+### Entry 3 - [April 28, 2026]
+Task 3 Implementation: Integrated a binary Semaphore with 1 permit to control concurrent CPU access.
 
-**Challenges encountered**: 
+Process Logic: Modified the run() and runToCompletion() methods in the Process class to acquire the semaphore before execution and release it in the finally block.
 
-**How I solved it**: 
-
-**Testing approach**: 
-
-**Time spent**: 
+Synchronization Goal: This ensures that only one process can simulate execution on the CPU at any given time, preventing overlapped output and ensuring mutual exclusion.
 
 ---
 
 ### Entry 4 - [Date, Time]
-**What I implemented**: 
-
-**Challenges encountered**: 
-
-**How I solved it**: 
-
-**Testing approach**: 
-
-**Time spent**: 
-
----
-
-### Entry 5 - [Date, Time]
 **What I implemented**: 
 
 **Challenges encountered**: 
