@@ -31,16 +31,8 @@
 
 Document your development process with **minimum 3 entries** showing progression:
 
-### Entry 1 - [Date, Time]
-**What I implemented**: 
-
-**Challenges encountered**: 
-
-**How I solved it**: 
-
-**Testing approach**: 
-
-**Time spent**: 
+### Entry 1 - [April 23, 2026]
+Forked the starter repository from the provided GitHub link.  Changed the repository visibility settings to 'Public' and renamed the repository to OS-Assignment3-FirstName-LastName as per assignment requirements.  Cloned the repository to the local machine using Visual Studio Code to set up the development environment.  Initialized the project by updating the studentID variable in SchedulerSimulationSync.java with my official university student ID.  
 
 ---
 
